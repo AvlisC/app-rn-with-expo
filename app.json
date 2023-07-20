@@ -2,9 +2,12 @@
   "expo": {
     "name": "app.menu.sorveteria",
     "slug": "app.menu.sorveteria",
+    "scheme": "app.menu.sorveteria",
+    "web": {
+      "bundler": "metro"
+    },
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"],
+    "plugins": ["expo-router"]
   }
 }
